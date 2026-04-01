@@ -2,6 +2,7 @@ import PostsDisplay from "@/components/PostsDisplay";
 import getAllPosts from "@/lib/getAllPosts";
 
 export default async function Home() {
+
   const posts = await getAllPosts();
 
   return (
