@@ -6,7 +6,7 @@ export default async function Home() {
   const posts = await getAllPosts();
 
   return (
-    <div className="flex flex-col items-center bg-blue-200 p-4">
+    <div className="flex flex-col items-center bg-red-200 p-4">
       <PostsDisplay inputPosts={posts} />;
     </div>
   );
